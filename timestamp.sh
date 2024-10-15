@@ -1,5 +1,5 @@
 #!/bin/bash
-timestamp=$(date + %d_%m_%y_%H_%M)
+timestamp=$(date + %d_%m_%Y_%H_%M)
 echo "this is a data to log file" >> ${timestamp}.log
 echo "this is extra to log file " >> ${timestamp}.log
 date >> ${timestamp}.log
