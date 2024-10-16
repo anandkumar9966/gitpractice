@@ -5,7 +5,7 @@ if [ $a -gt $b ]; then
 echo "$a is graeter than $b"
 else
 echo "$b is greater than $a"
-if [ $a -eq $b ]; then
+elif [ $a -eq $b ]; then
 echo "both are eqaul"
 else
 echo " both are not equal"
