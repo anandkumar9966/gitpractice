@@ -6,5 +6,7 @@ echo "-------------------------------"
 echo " student name is:" $stdname
 echo " stduent id:" $stdid
 echo " student class:" $stdclass
-  
+echo "$stdname:$stdid:$stdclass" >> student.txt
+
+
 
