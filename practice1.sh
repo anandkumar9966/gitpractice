@@ -1,5 +1,6 @@
 #!/bin/bash
-read -p " enter the value of a" a
-read -p " enter the value of b" b
-echo "the values of a and b are : $a and $b"
+read -p " enter the username :" username
+read  -s -p " enter the password:" password
+echo "thanks for providing the information"
+
 
