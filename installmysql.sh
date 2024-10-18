@@ -1,7 +1,10 @@
 #!/bin/bash
-if [ id -u -ne 0 ]; then
+i=$( id -u )
+if [ $i 0 ]; then
    echo " please run the script with root user to install mysql"
+   exit 1
 else
-   echo " installing the script with root user"
+   echo " installing mysql server...please wait"
 fi
-yum install mysql -y 
+
+yum install mysql -y
