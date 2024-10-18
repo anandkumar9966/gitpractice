@@ -1,6 +1,5 @@
 #!/bin/bash
-i=$(id -u)
-if [ $i -ne 0 ]; then
+if [ id -u -ne 0 ]; then
    echo " please run the script with root user to install mysql"
 else
    echo " installing the script with root user"
