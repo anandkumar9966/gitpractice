@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "enter any digit from 0 to 9" n
+read -p "enter any digit from 0 to 9:" n
 case $n in
 0)
 echo  "zero"
@@ -23,12 +23,13 @@ echo  "five"
 echo "six"
 ;;
 7)
-echo "  zero"
+echo "seven"
 ;;
 8)
-echo "  zero"
+echo "eight"
 ;;
 *)
 default "please enter the number from 0 to 9"
+;;
 esac
 
