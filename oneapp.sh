@@ -1,5 +1,6 @@
 #!/bin/bash
 while [ true ]
+do
 read -p "enter the file name to display the content:" fname
 if [ -f $fname ]; then
 echo "----------------------------------"
