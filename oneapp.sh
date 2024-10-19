@@ -18,6 +18,6 @@ continue
 break
 ;;
 esac
-done
+
 echo "thanks for using the service"
 
