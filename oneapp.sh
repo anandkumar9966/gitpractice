@@ -8,7 +8,7 @@ echo " the content of the $fname:"
 cat $fname
 echo "----------------------------------"
 else
-echo "the $fname is not a regular file or may not exist"
+echo "the $fname is not a regular file or may not exists"
 fi
 read -p "do you want to check the content of the another file [y|n]"option
 case $option in
