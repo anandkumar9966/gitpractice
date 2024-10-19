@@ -17,7 +17,7 @@ continue
 [Nn]-o[Nn][Oo] )
 break
 ;;
-esac
-
+ esac
+done
 echo "thanks for using the service"
 
