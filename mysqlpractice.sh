@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ id -u -ne 0 ]; then
+if [ $[id -u] -ne 0 ]; then
 echo " ERROR: please run the script with root user to install mysql"
 exit 1
 else
