@@ -5,7 +5,7 @@ exit 1
 else
 echo "mysql installing...please wait"
 fi
-yum install mysqlt -y
+yum install mysql -y
 
 if [ $? -ne 0 ]; then
 echo "ERROR: mysql installation has failed "
