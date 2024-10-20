@@ -1,7 +1,7 @@
 #!/bin/bash
-for i in {1..100}
+for fname in *
 do
-if [ $[i%10] -eq 0 ] ; then
-echo "$i"
+if [ -f $fname ] ; then
+echo " all files displayed successfully $fname"
 fi
 done
